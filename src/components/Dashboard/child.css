@@ -1,0 +1,19 @@
+#oop{
+    padding: 1rem;
+    width: 23rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    margin: 0.5rem;
+
+}
+#oop img{
+    width: 1.2rem;
+}
+.parentClass{
+    display: flex;
+    padding: 2rem;
+    overflow-x: scroll !important;
+}
+.instructor h3{
+    color: rgb(14, 14, 106);
+}

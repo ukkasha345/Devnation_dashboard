@@ -1,0 +1,77 @@
+
+.paretnDv{
+    display:flex;
+    flex-direction: column;
+    width:95%;
+    border-radius :15px;
+    padding: 1% 0;
+}
+.LiveClasses{
+    /* float: left; */
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    /* border: 1px solid lightgray ; */
+
+}
+.childiv{
+    padding:10px;
+    margin:20px 0;
+    margin-right: 10px;
+    min-width: 12em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    overflow-x: hidden;
+}
+.childiv button{
+    border:none;
+    background-color: red;
+    padding:8px 22px;
+    color:white;
+    width:70%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.atndSpan{
+    font-size: 28px;
+    font-weight: bold;
+    margin: auto;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.progress-bar{
+    width:100%;
+    display: flex;
+    align-items: center;
+    margin-top:10px;
+}
+.progress-bar hr{
+    height:15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px rgba(99,102,241,0.2);
+    background-color: rgba(99,102,241,1);
+}
+.attendance-container{
+    color:rgb(87, 87, 87);
+    margin-top: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    width:25%;
+    padding:15px 25px;
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);
+}
+.attendance-icon{
+    background-color: rgba(99,102,241,1);
+    padding:10px;
+    margin-right: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0px rgba(99,102,241,0.3);
+}

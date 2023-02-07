@@ -1,0 +1,47 @@
+{
+  /*       
+      <div className="container">
+        <nav>
+          <div className="logo">
+            <a href="#">
+              {" "}
+              <img src={img1} width="140%" />
+            </a>
+          </div>
+          <div className="menu">
+            <ul>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                {" "}
+                <a href="#"> My Applications</a>
+              </li>
+              <li>
+                {" "}
+                <a href="#"> My Resume</a>
+              </li>
+            </ul>
+          </div>
+          <div className="right_Logo">
+            <a href="#">
+              <img className="photo" src={img2} />
+            </a>
+          </div>
+        </nav>
+
+        <div>
+          <h1>Become A Senior Web App Developer</h1>
+        </div>
+        <div className="mainMenu">
+          <span>
+            <button className="Dashboard">Dashboard</button>
+            <button className="Recording">Recording</button>
+            <button className="Assignments">Assignments</button>
+            <button className="Syllabus">Course Syllabus</button>
+          </span>
+          <hr />
+
+        </div>
+      </div> */
+}

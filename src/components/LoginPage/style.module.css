@@ -1,0 +1,100 @@
+.container{
+    background-color:rgb(251, 251, 251);
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    min-height:100vh;
+}
+.container img{
+    height:50px;
+}
+.login{
+    background-color:white;
+    padding:40px 30px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    border-radius: 10px;
+    margin:22px 0;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.2);
+}
+.login h1{
+    width:70%;
+}
+.login .createAcc a{
+    text-decoration:none;
+    color:crimson;
+    font-weight:bold;
+}
+.login .createAcc a:hover{
+    text-decoration:underline;
+}
+
+.createAcc{
+    font-size: 14px;
+    margin:10px 0;
+}
+.input{
+    margin:10px 0;
+    width:100%;
+    display: flex;
+    flex-direction:column;
+    text-align:start
+}
+.input input{
+    padding:7px;
+    margin:5px 0;
+    border:1px solid lightgray ;
+    border-radius:5px;
+    font-size: 18px;
+}
+.input p{
+    font-weight:500;
+    color:rgb(59, 59, 59);
+    font-size: 14px;
+}
+.input input:focus{
+    outline: 1px blue solid;;
+}
+.checkBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-top:5px;
+    margin-bottom:15px;
+}
+.checkBox div label {
+    margin:0 10px;
+    font-size: 14px;
+    margin-top: -5px;
+}
+.checkBox a{
+    text-decoration:none;
+    color:crimson;
+    font-weight:500;
+    font-size: 14px;
+}
+.checkBox a:hover{
+    text-decoration:underline;
+}
+.signInBtn{
+    border:none;
+    outline:none;
+    width:100%;
+    padding:10px 0;
+    color:white;
+    background-color:crimson;
+    font-weight:600;
+    font-size: 15px;
+    border-radius: 7px;
+    margin-top:10px;
+    border:1px crimson solid;
+}
+.signInBtn:hover{
+    background-color:white;
+    color:crimson;
+    cursor: pointer;
+}

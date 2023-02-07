@@ -1,0 +1,58 @@
+.record {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: .875rem;
+
+  }
+p{
+  margin-bottom: 1.5rem;
+}
+.record th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align:start;
+    background-color: #f2f2f2;
+    color: rgb(118, 115, 115);
+    padding-right: 1.5rem;
+    padding: 12px 6rem 12px 1.5rem;
+    /* */
+  }
+ .record thead{
+    margin-top: 3.5rem !important; 
+  }
+  .record td, #record th {
+    padding: 10px;
+  }
+
+  .record tr td{
+
+    text-align: left;
+    padding: 12px 10rem 12px 1rem;
+  
+  }
+  tr:nth-child(even){
+    background-color: #f2f2f2 ; 
+  }
+  
+.record td{
+    padding: 1.5rem;
+}
+.links a{
+    text-decoration: none;
+}
+#link a{
+    
+    color: rgb(58, 54, 179) !important;
+}
+#link a:hover{
+    color: rgb(33, 12, 111) !important;
+    text-decoration: underline !important;
+}
+td a:hover{
+    color: rgb(33, 12, 111) !important;
+}
+
+.main{
+    width: 100%;
+    justify-content: left !important;
+}

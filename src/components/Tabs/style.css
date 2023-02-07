@@ -1,0 +1,30 @@
+.container{
+    border-radius: 10px;
+}
+.tab-btns{
+    border-radius: 10px;
+    display: flex;
+    background-color:white;
+    padding:0 20px;
+    width:100%;
+    justify-content:space-around;
+    padding-top:30px;
+}
+.tab-btns div{
+    padding:12px 0;
+    flex:1;
+    text-align:center;
+    border-bottom: 1px rgb(208, 208, 208) solid;
+    cursor:pointer;
+}
+.tab-btns div:hover{
+    border-bottom: 2px rgb(208, 208, 208) solid;
+    
+}
+.tab-content{
+    background-color:white;
+    display: flex;
+    width: 100%;
+    padding:20px;
+    justify-content:center;
+}
