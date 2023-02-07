@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# NODE modules folder is not here, so before using it try to install node modules
+
+use admin for login credentials
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
