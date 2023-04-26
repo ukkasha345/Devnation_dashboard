@@ -1,6 +1,6 @@
-# NODE modules folder is not here, so before using it try to install node modules
+#Deployed on : https://devnations.netlify.app
 
-use admin for login credentials
+#use admin for login credentials
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
